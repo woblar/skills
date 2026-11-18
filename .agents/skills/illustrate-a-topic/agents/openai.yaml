@@ -1,0 +1,9 @@
+interface:
+  display_name: "Illustrate a Topic"
+  short_description: "Research a topic and explain it in ten visual themes"
+  default_prompt: "Use $illustrate-a-topic to explain how a heat pump works using the annotated object layout."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+
+policy:
+  allow_implicit_invocation: true

@@ -6,7 +6,10 @@ A library of reusable workflows for Codex. Use the catalog to find a skill by th
 
 | Skill | Use it when | Produces | Prerequisites |
 | --- | --- | --- | --- |
+| [illustrate-a-topic](.agents/skills/illustrate-a-topic/SKILL.md) | You want to explain a concept, mechanism, or comparison in a pastel whiteboard style using one or more of ten layouts. | A researched illustration for each selected layout and source links. | A topic and access to authoritative sources. Finished images require an image-generation tool. |
 | [woblar-add-skill](.agents/skills/woblar-add-skill/SKILL.md) | You have a repeatable workflow to save in this library. | A Codex-discoverable skill folder and a linked catalog entry. | A workflow with enough detail or a representative example to identify its inputs and output. |
+
+> Use $illustrate-a-topic to explain how a heat pump works using the annotated object layout.
 
 > Use $woblar-add-skill to save our release-note workflow. It takes a list of merged changes, groups them by user impact, and returns a Markdown changelog.
 
