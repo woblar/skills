@@ -1,6 +1,6 @@
 # The ten layout themes
 
-Use the numbers, titles, or canonical names below. Keep the order stable for an all-ten set. The example links show composition and style.
+Use the numbers, titles, or canonical names below. Keep the order stable for an all-ten set. The linked images are AI-generated layout examples. Verify technical and product details independently and use the heater drawings for composition only. See the [artwork notice](../NOTICE.md) for reuse terms.
 
 | # | Theme | Canonical name | Composition | Example |
 | --- | --- | --- | --- | --- |

@@ -1,11 +1,13 @@
 # Woblar skills library
 
-This repository holds reusable workflows for Codex. `README.md` is the human-facing catalog. Keep its entry for each skill current when the skill’s purpose, inputs, outputs, or prerequisites change.
+This repository holds reusable workflows for Codex and Claude Code. `README.md` is the catalog. Keep each entry current when the skill’s purpose, inputs, outputs, prerequisites, or license changes.
 
 ## Add or update a skill
 
-- Give each skill a self-contained folder under `.agents/skills/`. Use a lowercase, hyphenated name that matches the `name` in `SKILL.md`.
-- Write a `description` that helps Codex recognize the task. Describe expected inputs, outputs, and an example in the body. Keep scripts, references, and assets inside the skill folder when they are needed.
+- Give each skill a self-contained folder at `skills/<name>/`. Use a lowercase, hyphenated name that matches the `name` in `SKILL.md`. Add matching relative directory symlinks in `.agents/skills/` and `.claude/skills/` pointing to `../../skills/<name>`.
+- Write a `description` that helps both tools recognize the task. Describe expected inputs, outputs, and an example in the body. Keep scripts, references, and assets inside the skill folder when they are needed.
+- Keep the main workflow usable from either host. Describe capabilities the skill needs and what it can deliver when a tool is unavailable. Place host-specific metadata or guidance inside the skill when it helps.
+- Set licensing per skill. When adapting an existing skill, verify permission to redistribute the adaptation and carry over the applicable license and attribution. Confirm the rights holder and scope before adding a new license. Keep asset exclusions explicit.
 - Inspect the change and check the affected behavior once. Prefer a small local or mocked check. Get approval before starting a broader suite or build when one is necessary.
 
 ## Public repository and authorization
